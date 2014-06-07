@@ -1,0 +1,86 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>UI 规范</title>
+    <meta name="description" content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."/>
+
+    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="/platform/Public/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="/platform/Public/css/flat-ui.css" rel="stylesheet">
+    <link href="/platform/Public/css/demo.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/platform/Public/images/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      
+    	<div class="demo-headline">
+        <h1 class="demo-logo">
+          <div class="logo"></div>
+          UI 规范
+         
+        </h1>
+      </div> <!-- /demo-headline -->
+      <div class="row demo-tiles">
+        <div class="col-xs-3">
+          <div class="tile palette palette-turquoise">
+            
+            <h3 class="tile-title">手机QQ规范</h3>
+            
+          </div>
+        </div>
+		<div class="col-xs-3">
+          <div class="tile palette palette-emerald">
+            
+            <h3 class="tile-title">PC QQ规范</h3>
+            
+          </div>
+        </div>
+		<div class="col-xs-3">
+          <div class="tile palette palette-peter-river">
+            
+            <h3 class="tile-title">手Q游戏中心规范</h3>
+            
+          </div>
+        </div>
+		<div class="col-xs-3">
+          <div class="tile palette palette-concrete">
+            
+            <h3 class="tile-title"><span class="fui-plus"></span></h3>
+            
+          </div>
+        </div>
+		
+
+        
+      </div> <!-- /tiles -->
+
+    </div>
+    
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/jquery.stacktable.js"></script>
+    <script src="http://vjs.zencdn.net/4.3/video.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>
